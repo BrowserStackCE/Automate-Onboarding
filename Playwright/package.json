@@ -1,0 +1,14 @@
+{
+  "name": "playwright-browserstack",
+  "version": "1.0.0",
+  "description": "Playwright tests with BrowserStack Automate",
+  "scripts": {
+    "test": "npx browserstack-node-sdk playwright test",
+    "test:local": "cross-env BROWSERSTACK_AUTOMATION=false npx browserstack-node-sdk playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.59.0",
+    "browserstack-node-sdk": "^1.0.0",
+    "cross-env": "^10.1.0"
+  }
+}
