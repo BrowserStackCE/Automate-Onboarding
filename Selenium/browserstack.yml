@@ -1,0 +1,41 @@
+userName: ${BROWSERSTACK_USERNAME}
+accessKey: ${BROWSERSTACK_ACCESS_KEY}
+
+platforms:
+  # Desktop Platforms (5 Parallels)
+  - browserName: chrome
+    browserVersion: latest
+    os: Windows
+    osVersion: 11
+  - browserName: safari
+    browserVersion: latest
+    os: OSX
+    osVersion: Sonoma
+  - browserName: edge
+    browserVersion: latest
+    os: Windows
+    osVersion: 10
+  - browserName: firefox
+    browserVersion: latest
+    os: Windows
+    osVersion: 11
+  - browserName: chrome
+    browserVersion: latest
+    os: OSX
+    osVersion: Ventura
+
+parallelsPerPlatform: 1
+
+browserstackLocal: true
+
+buildName: "Onboarding_Build"
+projectName: "Automate_Onboarding"
+buildTag: "e2e"
+
+framework: pytest
+
+testObservability: true
+debug: true
+networkLogs: true
+consoleLogs: info
+interactiveDebugging: true
