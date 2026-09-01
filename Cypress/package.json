@@ -1,0 +1,14 @@
+{
+  "name": "cypress-e2e",
+  "version": "1.0.0",
+  "description": "Cypress E2E tests for BStackBank",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open",
+    "test:bstack": "browserstack-cypress run --sync"
+  },
+  "devDependencies": {
+    "browserstack-cypress-cli": "^1.36.18",
+    "cypress": "^15.8.2"
+  }
+}
