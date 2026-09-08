@@ -11,6 +11,9 @@ pnpm-lock.yaml
 Playwright/test-results/
 Playwright/playwright-report/
 Playwright/log/
+WebdriverIO/log/
+WebdriverIO/logs/
+WebdriverIO/.wdio-*
 
 # Environment variables
 .env
