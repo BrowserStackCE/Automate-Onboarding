@@ -23,6 +23,17 @@ platforms:
     browserVersion: latest
     os: OSX
     osVersion: Ventura
+  # Mobile Real Devices (5 Parallels)
+  - deviceName: iPhone 15
+    osVersion: 17
+  - deviceName: Samsung Galaxy S24
+    osVersion: 14.0
+  - deviceName: Google Pixel 8
+    osVersion: 14.0
+  - deviceName: iPhone 14
+    osVersion: 16
+  - deviceName: Samsung Galaxy Tab S11
+    osVersion: 16.0
 
 parallelsPerPlatform: 1
 
